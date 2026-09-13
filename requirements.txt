@@ -1,0 +1,6 @@
+# Nada é necessário para rodar minha_instancia.py, os exemplos ou o
+# verificador. Só Python 3.10+.
+#
+# Para análise e gráficos (opcional, não pode ser usado em submissao/):
+pandas>=2.0
+matplotlib>=3.7
