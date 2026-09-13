@@ -2,6 +2,9 @@
 
 **Entrega: 16/09/2026, 23h59. Sem prorrogação.**
 
+Preencham o `PRE_REGISTRO.docx` e enviem o arquivo na tarefa do
+pré-registro no Canvas.
+
 Grupo: ______________________  Curso: ( ) Produção ( ) Computação
 Integrantes: ______________________________________________
 Seed de busca: __________  Seed de CSP: __________

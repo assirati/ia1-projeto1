@@ -284,7 +284,7 @@ OBS: Nenhum prazo é flexível.
 | Data                 | Evento                                                                   |
 | -------------------- | ------------------------------------------------------------------------ |
 | **Seg 14/09**        | Apresentação. Grupos formados, seeds distribuídos, repositório publicado |
-| **Qua 16/09, 23h59** | Pré-registro de hipóteses (Entrega pelo formulário no Canvas)            |
+| **Qua 16/09, 23h59** | Pré-registro de hipóteses (`PRE_REGISTRO.docx`, tarefa no Canvas)        |
 | 17 a 20/09           | Experimentação                                                           |
 | **Seg 21/09, 23h59** | Submissão ao torneio (Canvas)                                            |
 | Qua 23/09            | Torneio rodado. Tabelas e logs publicados (Canvas)                       |
@@ -312,7 +312,9 @@ e não produziu material de análise.
 Predições exigem número. "Entre 3 e 5 vezes menos nós" é predição. "Menos
 nós" não é.
 
-Entregas depois de 16/09 não serão aceitas.
+O formulário é o `PRE_REGISTRO.docx`, no repositório. Preencham e enviem o
+arquivo na tarefa do pré-registro no Canvas. Entregas depois de 16/09 não
+serão aceitas.
 
 ---
 
@@ -354,7 +356,8 @@ nada. Isso é nota baixa, não isenção.
 
 **20 minutos.** Replicação ao vivo. Cada grupo recebe, sorteado na hora, o
 pacote de outro grupo e um notebook. Rodam o script e conferem se os
-números batem com o pôster do vizinho. Envio de formulário de quatro linhas.
+números batem com o pôster do vizinho. Preenchem a `FICHA_REPLICACAO.docx`
+e a enviam na tarefa da ficha no Canvas, ainda durante a sessão.
 
 Parecer negativo bem fundamentado pontua para quem audita. Parecer
 complacente que deixa passar erro grave penaliza os dois grupos.

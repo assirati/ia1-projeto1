@@ -3,6 +3,9 @@
 Preenchida durante a sessão, 20 minutos. Vale 0,5 ponto para o grupo
 auditor.
 
+Preencham o `FICHA_REPLICACAO.docx` e enviem o arquivo na tarefa da ficha
+de replicação no Canvas, ainda durante a sessão.
+
 Grupo auditor: ______________  Grupo auditado: ______________
 Hora de início: ______
 
