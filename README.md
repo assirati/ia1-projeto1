@@ -119,18 +119,18 @@ eles não podem importar outros arquivos de vocês.
 Enviem o zip na tarefa do torneio no Canvas. Prazo: **21/09, 23h59**. Sem
 segunda chamada.
 
-## Formulários
+## Documentos para preencher
 
-Os dois formulários do projeto estão no repositório em Word. Preencham o
-arquivo `.docx` (no Word, no LibreOffice ou no Google Docs) e enviem o
-próprio `.docx` na tarefa correspondente do Canvas:
+O pré-registro, a ficha de replicação e o modelo de pôster ficam no
+Google Drive (os links também estão no Canvas). Cada link abaixo abre a
+opção de fazer uma cópia na conta Google de vocês. Façam a cópia, preencham
+e enviem na tarefa correspondente do Canvas:
 
-| Formulário | Quando | Onde enviar |
+| Documento | Quando | Onde enviar |
 |---|---|---|
-| [`PRE_REGISTRO.docx`](PRE_REGISTRO.docx) | até **16/09, 23h59**, antes de rodar qualquer experimento | tarefa do pré-registro no Canvas |
-| [`FICHA_REPLICACAO.docx`](FICHA_REPLICACAO.docx) | na sessão de **28/09**, sobre o pacote do grupo auditado | tarefa da ficha no Canvas, ainda durante a sessão |
-
-Os `.md` de mesmo nome têm o mesmo conteúdo, para ler aqui no GitHub.
+| [Pré-registro de hipóteses](https://docs.google.com/document/d/1hOAH5rpil4GBSiM1z6HZgJqEnojEc_9P/copy) | até **16/09, 23h59**, antes de rodar qualquer experimento | tarefa do pré-registro no Canvas |
+| [Modelo de pôster (A1)](https://docs.google.com/presentation/d/1bO9CEi4-UYWEyJMskqwvBEUI1eflwyP8/copy) | até **26/09, 23h59**, junto com o pacote reprodutível | tarefa do pôster no Canvas |
+| [Ficha de replicação](https://docs.google.com/document/d/12jT8s6hxVVr1O0-INN0u0WRC8jvu4z6H/copy) | na sessão de **28/09**, sobre o pacote do grupo auditado | tarefa da ficha no Canvas, ainda durante a sessão |
 
 ---
 
@@ -140,10 +140,6 @@ Os `.md` de mesmo nome têm o mesmo conteúdo, para ler aqui no GitHub.
 ENUNCIADO.md              regras, prazos, pontuação
 RUBRICA.md                critérios de correção de cada componente
 BANCO_PERGUNTAS.md        as 24 perguntas da arguição, públicas
-PRE_REGISTRO.docx         formulário a preencher e enviar no Canvas até 16/09
-FICHA_REPLICACAO.docx     formulário a preencher e enviar no Canvas em 28/09
-PRE_REGISTRO.md e         os mesmos formulários, para leitura
-FICHA_REPLICACAO.md
 histograma_calibracao.png distribuição de dificuldade dos seeds
 
 minha_instancia.py        gera a sua instância

@@ -284,7 +284,7 @@ OBS: Nenhum prazo é flexível.
 | Data                 | Evento                                                                   |
 | -------------------- | ------------------------------------------------------------------------ |
 | **Seg 14/09**        | Apresentação. Grupos formados, seeds distribuídos, repositório publicado |
-| **Qua 16/09, 23h59** | Pré-registro de hipóteses (`PRE_REGISTRO.docx`, tarefa no Canvas)        |
+| **Qua 16/09, 23h59** | Pré-registro de hipóteses (formulário no Drive, entrega no Canvas)       |
 | 17 a 20/09           | Experimentação                                                           |
 | **Seg 21/09, 23h59** | Submissão ao torneio (Canvas)                                            |
 | Qua 23/09            | Torneio rodado. Tabelas e logs publicados (Canvas)                       |
@@ -312,9 +312,10 @@ e não produziu material de análise.
 Predições exigem número. "Entre 3 e 5 vezes menos nós" é predição. "Menos
 nós" não é.
 
-O formulário é o [`PRE_REGISTRO.docx`](PRE_REGISTRO.docx), no repositório. Preencham e enviem o
-arquivo na tarefa do pré-registro no Canvas. Entregas depois de 16/09 não
-serão aceitas.
+O [formulário do pré-registro](https://docs.google.com/document/d/1hOAH5rpil4GBSiM1z6HZgJqEnojEc_9P/copy)
+está no Google Drive (o link também está no Canvas). Façam uma cópia,
+preencham e enviem na tarefa do pré-registro no Canvas.
+Entregas depois de 16/09 não serão aceitas.
 
 ---
 
@@ -356,7 +357,8 @@ nada. Isso é nota baixa, não isenção.
 
 **20 minutos.** Replicação ao vivo. Cada grupo recebe, sorteado na hora, o
 pacote de outro grupo e um notebook. Rodam o script e conferem se os
-números batem com o pôster do vizinho. Preenchem a [`FICHA_REPLICACAO.docx`](FICHA_REPLICACAO.docx)
+números batem com o pôster do vizinho. Preenchem uma cópia da
+[ficha de replicação](https://docs.google.com/document/d/12jT8s6hxVVr1O0-INN0u0WRC8jvu4z6H/copy)
 e a enviam na tarefa da ficha no Canvas, ainda durante a sessão.
 
 Parecer negativo bem fundamentado pontua para quem audita. Parecer
@@ -375,8 +377,9 @@ partir do seu pôster e dos seus dados:
 Respostas podem ser dadas apontando para o pôster, escrevendo no papel ou
 rodando código na hora. Avalia-se o conteúdo, não a desenvoltura.
 
-Pôster digital no formato A1 (modelo em anexo no Canvas). Quem colocar
-texto demais não vai conseguir defender.
+Pôster digital no formato A1, feito a partir do
+[modelo no Google Drive](https://docs.google.com/presentation/d/1bO9CEi4-UYWEyJMskqwvBEUI1eflwyP8/copy).
+Quem colocar texto demais não vai conseguir defender.
 
 ---
 
