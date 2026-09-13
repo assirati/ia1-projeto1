@@ -54,6 +54,43 @@ estão interditados.
 Isso não é caminho mínimo entre dois pontos. O espaço de estados tem
 tamanho `células × 2^8`.
 
+### Como ler a sua instância
+
+`minha_instancia.py` imprime o mapa do armazém. Este é o da matrícula de
+exemplo `20231234` (seed de busca 84). No de vocês, a doca, os itens e as
+interdições ficam em outros lugares.
+
+```
+....D................
+.####0####.####.####.
+.####.####.#########.
+.####.####.####.####.
+.####.####.####.####.
+.####.#########.####.
+.####.####.####.####.
+.............#.......
+.####.####.####.####.
+.####.####.####.####.
+.####1####.#########.
+.####.####.####2####3
+4####.####5####.####.
+6####.####.####.####.
+....7................
+```
+
+- O armazém tem 15 linhas e 21 colunas. Uma posição é `(linha, coluna)`,
+  com `(0, 0)` no canto superior esquerdo.
+- `.` é corredor, por onde o robô anda. `#` é prateleira.
+- Os corredores ficam nas linhas 0, 7 e 14 e nas colunas 0, 5, 10, 15 e 20.
+  Um `#` no meio de um corredor é uma travessia interditada. Nesta
+  instância são quatro: (2, 15), (5, 10), (7, 13) e (10, 15).
+- `D` é a doca, em (0, 4). O robô sai dela e precisa voltar para ela.
+- `0` a `7` são os itens. O robô coleta um item ao pisar na célula dele.
+  Aqui o item 0 está em (1, 5) e o item 7 em (14, 4).
+- O estado da busca é `(célula, máscara)`. A máscara tem 8 bits, e o bit
+  `i` ligado significa que o item `i` já foi coletado. O estado inicial é
+  `((0, 4), 0b00000000)` e o objetivo é `((0, 4), 0b11111111)`.
+
 ### O que vocês fazem
 
 Rodem quatro estratégias já implementadas em `engine/solve_search.py`:
@@ -94,6 +131,57 @@ Alocar caminhões a docas e horários de início.
 
 Toda instância distribuída tem pelo menos uma solução, verificada na
 geração.
+
+### Como ler a sua instância
+
+A segunda parte da saída de `minha_instancia.py` é a tabela de caminhões.
+Este é um trecho da matrícula de exemplo `20231234`, curso Computação
+(seed de CSP 113). A tabela completa tem 22 caminhões:
+
+```
+seed=113  docas=3 (frias=[0, 1])  slots=22
+carga/capacidade = 0.89
+tamanho medio de dominio = 7.5
+  T0(dur=2, janela=[11,13], frio=0, eq=0)
+  T1(dur=3, janela=[15,17], frio=1, eq=1)
+  T2(dur=2, janela=[0,1], frio=0, eq=0)
+  ...
+  T15(dur=2, janela=[19,20], frio=1, eq=0)
+  ...
+```
+
+- O cabeçalho diz que há 3 docas, numeradas de 0 a 2, e que as docas 0 e 1
+  são refrigeradas. O dia tem 22 slots de 30 minutos, numerados de 0 a 21.
+- Em `T0(dur=2, janela=[11,13], frio=0, eq=0)`:
+  - `dur=2`: o caminhão ocupa a doca por 2 slots.
+  - `janela=[11,13]`: ele pode **começar** no slot 11, 12 ou 13. A janela
+    limita o início, não o fim: começando em 13, T0 ocupa os slots 13 e 14.
+  - `frio=0`: carga comum, pode usar qualquer doca. Com `frio=1`, só as
+    docas 0 e 1.
+  - `eq=0`: o caminhão é conferido pela equipe 0.
+- O domínio de T0 tem 3 docas × 3 inícios = 9 valores. O de T1, que é
+  refrigerado, tem 2 × 3 = 6. `tamanho medio de dominio` é a média disso
+  sobre os 22 caminhões.
+- `carga/capacidade = 0.89` quer dizer que a soma das durações ocupa 89%
+  de todos os pares (doca, slot) do dia. Quanto mais perto de 1, mais
+  apertada a instância.
+
+Um exemplo com as duas restrições unárias: T15 é refrigerado e tem janela
+[19,20]. Ele só pode usar as docas 0 e 1 e começar no slot 19 ou 20, então
+o domínio dele é `(0, 19)`, `(0, 20)`, `(1, 19)` e `(1, 20)`. O valor
+`(1, 20)` quer dizer doca 1, começando no slot 20. A janela tem só dois
+inícios porque o dia acaba: começando em 20, T15 ocupa os slots 20 e 21,
+os dois últimos.
+
+Os parâmetros do CSP mudam com o curso:
+
+|                                | Computação | Produção |
+| ------------------------------ | ---------- | -------- |
+| Caminhões                      | 22         | 18       |
+| Docas (as frias são a 0 e a 1) | 3          | 4        |
+| Equipes                        | 3          | 5        |
+| Slots no dia                   | 22         | 20       |
+| Inícios possíveis por caminhão | até 3      | até 4    |
 
 ### O que vocês fazem
 
