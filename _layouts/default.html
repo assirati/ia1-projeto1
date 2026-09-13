@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .page-header nav .btn { margin: 0.25rem 0.1rem; }
+    </style>
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+      <nav>
+        <a class="btn" href="{{ '/' | relative_url }}">Início</a>
+        <a class="btn" href="{{ '/ENUNCIADO.html' | relative_url }}">Enunciado</a>
+        <a class="btn" href="{{ '/RUBRICA.html' | relative_url }}">Rubrica</a>
+        <a class="btn" href="{{ '/BANCO_PERGUNTAS.html' | relative_url }}">Banco de perguntas</a>
+        <a class="btn" href="{{ '/PRE_REGISTRO.docx' | relative_url }}">Pré-registro (.docx)</a>
+        <a class="btn" href="{{ '/FICHA_REPLICACAO.docx' | relative_url }}">Ficha de replicação (.docx)</a>
+        <a class="btn" href="{{ site.github.repository_url }}">Código no GitHub</a>
+      </nav>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">Repositório:
+          <a href="{{ site.github.repository_url }}">{{ site.github.repository_nwo }}</a></span>
+      </footer>
+    </main>
+  </body>
+</html>

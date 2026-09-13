@@ -312,7 +312,7 @@ e não produziu material de análise.
 Predições exigem número. "Entre 3 e 5 vezes menos nós" é predição. "Menos
 nós" não é.
 
-O formulário é o `PRE_REGISTRO.docx`, no repositório. Preencham e enviem o
+O formulário é o [`PRE_REGISTRO.docx`](PRE_REGISTRO.docx), no repositório. Preencham e enviem o
 arquivo na tarefa do pré-registro no Canvas. Entregas depois de 16/09 não
 serão aceitas.
 
@@ -356,7 +356,7 @@ nada. Isso é nota baixa, não isenção.
 
 **20 minutos.** Replicação ao vivo. Cada grupo recebe, sorteado na hora, o
 pacote de outro grupo e um notebook. Rodam o script e conferem se os
-números batem com o pôster do vizinho. Preenchem a `FICHA_REPLICACAO.docx`
+números batem com o pôster do vizinho. Preenchem a [`FICHA_REPLICACAO.docx`](FICHA_REPLICACAO.docx)
 e a enviam na tarefa da ficha no Canvas, ainda durante a sessão.
 
 Parecer negativo bem fundamentado pontua para quem audita. Parecer
@@ -364,7 +364,7 @@ complacente que deixa passar erro grave penaliza os dois grupos.
 
 **Resto da aula.** Arguição individual, três perguntas por aluno.
 
-Duas perguntas são sorteadas do banco público. A terceira é improvisada a
+Duas perguntas são sorteadas do [banco público](BANCO_PERGUNTAS.md). A terceira é improvisada a
 partir do seu pôster e dos seus dados:
 
 > "Sua heurística ficou em 3º no torneio na sua instância e em 14º na
@@ -402,7 +402,7 @@ nota final = (pontos coletivos × multiplicador) + nota da arguição
 Quem não consegue explicar o próprio trabalho não carrega a nota do grupo.
 
 Os critérios de correção de cada componente e a tabela do multiplicador
-estão em `RUBRICA.md`.
+estão na [rubrica](RUBRICA.md).
 
 ---
 

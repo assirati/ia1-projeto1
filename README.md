@@ -3,7 +3,7 @@
 Busca em espaço de estados e satisfação de restrições, aplicadas à operação
 de um centro de distribuição.
 
-Leia `ENUNCIADO.md` para as regras completas. Este arquivo é só para você
+Leia o [enunciado](ENUNCIADO.md) para as regras completas. Este arquivo é só para você
 colocar o projeto para rodar em cinco minutos.
 
 ---
@@ -51,7 +51,7 @@ python3 minha_instancia.py 20231234 computacao
 ```
 
 Isso imprime o mapa do armazém e a tabela de caminhões. Guarde os dois
-seeds que aparecem no topo. As seções 3 e 4 do `ENUNCIADO.md` explicam
+seeds que aparecem no topo. As seções 3 e 4 do [enunciado](ENUNCIADO.md) explicam
 como ler essa saída, com um exemplo de cada módulo.
 
 ## Primeiros resultados
@@ -127,8 +127,8 @@ próprio `.docx` na tarefa correspondente do Canvas:
 
 | Formulário | Quando | Onde enviar |
 |---|---|---|
-| `PRE_REGISTRO.docx` | até **16/09, 23h59**, antes de rodar qualquer experimento | tarefa do pré-registro no Canvas |
-| `FICHA_REPLICACAO.docx` | na sessão de **28/09**, sobre o pacote do grupo auditado | tarefa da ficha no Canvas, ainda durante a sessão |
+| [`PRE_REGISTRO.docx`](PRE_REGISTRO.docx) | até **16/09, 23h59**, antes de rodar qualquer experimento | tarefa do pré-registro no Canvas |
+| [`FICHA_REPLICACAO.docx`](FICHA_REPLICACAO.docx) | na sessão de **28/09**, sobre o pacote do grupo auditado | tarefa da ficha no Canvas, ainda durante a sessão |
 
 Os `.md` de mesmo nome têm o mesmo conteúdo, para ler aqui no GitHub.
 

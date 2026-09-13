@@ -1,0 +1,10 @@
+# Configuração do GitHub Pages. O site é gerado a partir dos .md do
+# repositório: não há conteúdo duplicado aqui, só aparência e navegação.
+title: Inteligência Artificial 1
+description: Projeto 1 — busca em espaço de estados e satisfação de restrições num centro de distribuição
+lang: pt-BR
+theme: jekyll-theme-cayman
+
+# o primeiro título de cada .md vira o título do cabeçalho, sem repetir no texto
+titles_from_headings:
+  strip_title: true
